@@ -1,11 +1,11 @@
 # Persona: Collector
 
 ## Podstawowe informacje
-**Imię:** Tomasz Wiśniewski 
-**Wiek:** 34 lata 
-**Zawód:** Analityk finansowy 
-**Lokalizacja:** Duże miasto 
-**Poziom doświadczenia:** Zaawansowany kolekcjoner 
+**Imię:** Tomasz Wiśniewski  
+**Wiek:** 34 lata  
+**Zawód:** Analityk finansowy  
+**Lokalizacja:** Duże miasto  
+**Poziom doświadczenia:** Zaawansowany kolekcjoner  
 
 ---
 
