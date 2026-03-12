@@ -1,9 +1,5 @@
 # Podróże użytkownika — Grimoire MtG
 
-Skaner i deckbuilder do kart Magic: The Gathering
-
----
-
 ## Podróż 1: Michał Nowak (Competitive Player)
 
 **Budowanie nowego decku na turniej z użyciem skanera i deckbuildera**
@@ -28,7 +24,7 @@ Michał siedzi w domu przy biurku, obok leży pudełko z kartami MtG. Za dwa dni
 
 ---
 
-## Podróż 2: Tomasz Wiśniewski (Competitive Collector)
+## Podróż 2: Tomasz Wiśniewski (Collector)
 
 **Katalogowanie nowo zakupionych kart i sprawdzanie wartości kolekcji**
 
@@ -42,11 +38,11 @@ Tomasz wrócił z giełdy kolekcjonerskiej z paczką nowych kart — w tym kilka
 |----|-------|------|------------|--------|
 | 1 | Otwiera aplikację mobilną | Loguje się do Grimoire na telefonie | Telefon | Ekscytacja — nie może się doczekać skatalogowania nowych zakupów |
 | 2 | Skanuje nowe karty | Kładzie każdą kartę przed kamerą; aplikacja identyfikuje nazwę, edycję i wariant | Telefon | Zadowolenie — skanowanie jest znacznie szybsze niż ręczne wpisywanie do Excela |
-| 3 | Weryfikuje rozpoznanie | Sprawdza, czy aplikacja poprawnie rozróżniła edycję (np. Alpha vs. Revised); poprawia ręcznie jeśli trzeba | Telefon | Niepewność — obawa o pomyłkę w rozpoznaniu edycji cennej karty |
-| 4 | Dodaje notatki o stanie | Przy każdej karcie zaznacza stan (NM/LP/MP) i ewentualne uwagi | Telefon | Znużenie — powtarzalny krok, ale konieczny dla rzetelnej wyceny |
+| 3 | Weryfikuje rozpoznanie | Sprawdza, czy aplikacja poprawnie rozróżniła edycję; poprawia ręcznie jeśli trzeba | Telefon | Niepewność — obawa o pomyłkę w rozpoznaniu edycji cennej karty |
+| 4 | Dodaje notatki o stanie | Przy każdej karcie zaznacza stan (NM/GD/LP) i ewentualne uwagi | Telefon | Znużenie — powtarzalny krok, ale konieczny dla rzetelnej wyceny |
 | 5 | Zatwierdza dodanie do kolekcji | Karty trafiają do kolekcji z pełnymi metadanymi | Telefon | Satysfakcja — kolekcja jest uporządkowana i kompletna |
 | 6 | Przegląda wycenę kolekcji | Otwiera widok kolekcji posortowany wg wartości rynkowej; widzi łączną sumę | Telefon | Radość — łączna wartość kolekcji wzrosła po nowych zakupach |
-| 7 | Analizuje zmiany cen | Filtruje karty, których wartość ostatnio wzrosła; rozważa sprzedaż jednej z nich | Telefon | Rozterka — trudna decyzja, czy sprzedać kartę teraz, czy poczekać |
+| 7 | Analizuje ceny | Filtruje karty po ich wartości; rozważa sprzedaż jednej z nich | Telefon | Rozterka — trudna decyzja, czy sprzedać kartę teraz, czy poczekać |
 | 8 | Zamyka aplikację | Kolekcja jest zaktualizowana; Tomasz ma pełen obraz jej składu i wartości | Telefon | Spokój — pełna kontrola nad stanem kolekcji |
 
 ---

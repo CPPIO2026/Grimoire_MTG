@@ -55,12 +55,12 @@ Wymagania zapisane w formie historyjek użytkownika z priorytetami MoSCoW:
 | FR-10 | S | Jako użytkownik chcę po zeskanowaniu karty od razu dodać ją do wybranego decku, aby przyspieszyć proces budowania talii. |
 | FR-11 | S | Jako użytkownik chcę widzieć profil ze swoją kolekcją i listą decków, aby mieć przegląd całości. |
 | FR-12 | S | Jako użytkownik chcę dodawać notatki do kart w kolekcji (np. stan karty, uwagi), aby przechowywać dodatkowe informacje. |
-| FR-13 | C | Jako użytkownik chcę widzieć statystyki decku (mana curve, rozkład kolorów, liczba kart wg typu), aby ocenić zbalansowanie talii. |
-| FR-14 | C | Jako użytkownik chcę sortować kolekcję według różnych kryteriów (nazwa, edycja, kolor, wartość), aby łatwiej ją przeglądać. |
-| FR-15 | C | Jako użytkownik chcę widzieć aktualną wycenę rynkową kart w mojej kolekcji, aby znać jej łączną wartość. |
-| FR-16 | C | Jako użytkownik chcę sprawdzić legalność karty w wybranym formacie turniejowym (Standard, Modern, Commander), aby budować legalne decki. |
-| FR-17 | C | Jako użytkownik chcę eksportować deck do pliku tekstowego lub udostępnić go linkiem, aby dzielić się taliami z innymi graczami. |
-| FR-18 | W | Jako użytkownik chcę usuwać karty z kolekcji, aby utrzymywać ją w aktualnym stanie. |
+| FR-13 | S | Jako użytkownik chcę usuwać karty z kolekcji, aby utrzymywać ją w aktualnym stanie. |
+| FR-14 | C | Jako użytkownik chcę widzieć statystyki decku (mana curve, rozkład kolorów, liczba kart wg typu), aby ocenić zbalansowanie talii. |
+| FR-15 | C | Jako użytkownik chcę sortować kolekcję według różnych kryteriów (nazwa, edycja, kolor, wartość), aby łatwiej ją przeglądać. |
+| FR-16 | C | Jako użytkownik chcę widzieć aktualną wycenę rynkową kart w mojej kolekcji, aby znać jej łączną wartość. |
+| FR-17 | C | Jako użytkownik chcę sprawdzić legalność karty w wybranym formacie turniejowym (Standard, Modern, Commander), aby budować legalne decki. |
+| FR-18 | C | Jako użytkownik chcę eksportować deck do pliku tekstowego lub udostępnić go linkiem, aby dzielić się taliami z innymi graczami. |
 | FR-19 | W | Jako użytkownik chcę skanować wiele kart w trybie seryjnym (bez zatwierdzania każdej z osobna), aby masowo katalogować dużą kolekcję. |
 | FR-20 | W | Jako użytkownik chcę porównać dwa decki obok siebie z podświetleniem różnic, aby łatwo analizować warianty tej samej talii. |
 | FR-21 | W | Jako użytkownik chcę otrzymywać powiadomienia push, gdy cena karty z mojej kolekcji przekroczy ustawiony próg, aby nie przegapić okazji do sprzedaży. |
@@ -74,13 +74,10 @@ Wymagania zapisane w formie historyjek użytkownika z priorytetami MoSCoW:
 | NFR-01 | Rozpoznanie karty ze skanu powinno trwać nie dłużej niż 3 sekundy od momentu zrobienia zdjęcia. | Pomiar czasu od wykonania zdjęcia do wyświetlenia wyniku na próbie 20 różnych kart. |
 | NFR-02 | Skuteczność rozpoznawania nazwy karty ze skanu powinna wynosić co najmniej 85% przy dobrym oświetleniu. | Test na zbiorze 50 kart w kontrolowanych warunkach; zliczenie poprawnych rozpoznań. |
 | NFR-03 | Aplikacja webowa powinna załadować widok kolekcji (do 500 kart) w czasie poniżej 2 sekund. | Pomiar czasu ładowania strony narzędziem Lighthouse lub DevTools przy kolekcji 500 kart. |
-| NFR-04 | Hasła użytkowników muszą być przechowywane w formie zahashowanej (bcrypt lub równoważny algorytm). | Inspekcja bazy danych — sprawdzenie, że hasła nie są przechowywane w postaci jawnej. |
-| NFR-05 | Komunikacja między klientem a serwerem musi odbywać się przez HTTPS. | Sprawdzenie nagłówków odpowiedzi serwera i certyfikatu TLS. |
-| NFR-06 | Interfejs mobilny musi być użyteczny na ekranach o szerokości od 360px wzwyż. | Test ręczny na urządzeniach/emulatorach o rozdzielczości 360px, 390px i 412px. |
-| NFR-07 | Interfejs webowy musi być responsywny i użyteczny na ekranach od 768px wzwyż. | Test ręczny w przeglądarce przy szerokościach 768px, 1024px i 1440px. |
-| NFR-08 | System powinien obsługiwać co najmniej 50 jednoczesnych użytkowników bez zauważalnej degradacji wydajności. | Test obciążeniowy (np. k6 lub Artillery) symulujący 50 równoległych sesji. |
-| NFR-09 | Kod źródłowy musi być objęty testami jednostkowymi pokrywającymi co najmniej 60% logiki backendowej. | Raport pokrycia kodu generowany przez Jest (--coverage). |
+| NFR-04 | Komunikacja między klientem a serwerem musi odbywać się przez HTTPS. | Sprawdzenie nagłówków odpowiedzi serwera i certyfikatu TLS. |
+| NFR-05 | Interfejs mobilny musi być użyteczny na ekranach o szerokości od 360px wzwyż. | Test ręczny na urządzeniach/emulatorach o rozdzielczości 360px, 390px i 412px. |
+| NFR-06 | Interfejs webowy musi być responsywny i użyteczny na ekranach od 768px wzwyż. | Test ręczny w przeglądarce przy szerokościach 768px, 1024px i 1440px. |
+| NFR-07 | System powinien obsługiwać co najmniej 50 jednoczesnych użytkowników bez zauważalnej degradacji wydajności. | Test obciążeniowy (np. k6 lub Artillery) symulujący 50 równoległych sesji. |
+| NFR-08 | Kod źródłowy musi być objęty testami jednostkowymi pokrywającymi co najmniej 60% logiki backendowej. | Raport pokrycia kodu generowany przez Jest (--coverage). |
 
 ---
-
-*Grimoire MtG — Pryncypałki — Zadanie: Wymagania*
